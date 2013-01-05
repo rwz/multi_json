@@ -6,4 +6,8 @@ platforms :ruby, :mswin, :mingw do
   gem 'yajl-ruby', '~> 1.0', :require => nil
 end
 
+platforms :jruby do
+  gem 'gson', '~> 0.5.0'
+end
+
 gemspec
