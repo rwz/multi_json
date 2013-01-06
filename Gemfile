@@ -7,7 +7,7 @@ platforms :ruby, :mswin, :mingw do
 end
 
 platforms :jruby do
-  gem 'gson', '~> 0.5.0'
+  gem 'gson', '~> 0.6.0'
 end
 
 gemspec
